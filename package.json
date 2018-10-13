@@ -1,0 +1,27 @@
+{
+  "name": "budget-calculator",
+  "version": "1.0.0",
+  "description": "Budget Calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmanfs815/budget-calculator.git"
+  },
+  "author": "Salman Siddiqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salmanfs815/budget-calculator/issues"
+  },
+  "homepage": "https://github.com/salmanfs815/budget-calculator#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-google": "^0.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
