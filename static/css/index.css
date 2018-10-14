@@ -1,0 +1,14 @@
+
+body>h1 {
+  margin: auto;
+  margin-bottom: 5px;
+  width: 350px;
+}
+
+body>div {
+  margin: auto;
+  width: 400px;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 10px;
+}

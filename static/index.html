@@ -8,15 +8,56 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="/css/index.css">
+
     <title>Budget Calculator</title>
   </head>
   <body>
     <h1>Budget Calculator</h1>
 
-    <!-- Optional JavaScript -->
+    <div>
+
+      <div id="income">
+        <h3>Total Income</h3>
+        <table>
+            <tr>
+              <td>Wages / Salary</td>
+              <td><input type="number"></td>
+              <td><button type="button" class="btn btn-link remove">remove</button></td>
+            </tr>
+        </table>
+        <button id="add-income" type="button" class="btn btn-link">Add income category</button>
+      </div>
+
+      <div id="expenses">
+        <h3>Total Expenses</h3>
+        <table>
+            <tr>
+              <td>Living Expenses</td>
+              <td><input type="number"></td>
+              <td><button type="button" class="btn btn-link remove">remove</button></td>
+            </tr>
+        </table>
+        <button id="add-expense" type="button" class="btn btn-link">Add expense category</button>
+      </div>
+
+      <hr>
+
+      <div id="total">
+        <span>Surplus / Deficit:</span>
+        <span id="balance"></span>
+      </div>
+
+      <hr>
+
+      <button id="calculate" type="button">Calculate</button>
+
+    </div>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
